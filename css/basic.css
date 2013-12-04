@@ -13,19 +13,21 @@ body{
     margin-left:auto;
     border:1px solid;
     border-color:#a0a0a0;
+    padding-top:10px;
 }
 
 #topbar{
-    width:630px;
+    width:625px;
     height:220px;
     margin-right:auto;
     margin-left:auto;
     background:#51473d;
-    margin-top:10px;
     background-image:url(pics/coffey.jpg);
-    background-size: 850px 200px;
+    background-size:630px 200px;
     background-repeat:no-repeat;
     background-position:bottom;
+    padding-right:2.5px;
+    padding-left:2.5px;
 }
 
 #menu{
@@ -40,37 +42,42 @@ body{
 
 #content{
     width:630px;
-    height:425px;
+    height:400px;
     margin-right:auto;
     margin-left:auto;
     background:#eae7d2;
     margin-top:0px;
     padding:0px;
+    border:1px solid #cecab9;
 }
 
 #maincontent{
     width:60%;
-    height:400px;
+    height:310px;
     background:#eae7d2;
     float:left;
 }
 
 #subcontent{
-    width:39%;
-    height:400px;
+    width:35%;
+    height:340px;
     background:#eae7d2;
     float:right;
     border-left:1px dashed #c0c0c0;
-    margin:1px;
     position:inherit;
+    margin-top:20px;
 }
 
 #bottomcontent{
-    width:100%;
-    height:auto;
+    width:615px;
+    height:20px;
     float:left;
     background:#eae7d2;
     clear:both;
+    margin-top:10px;
+    margin-bottom:0px;
+    margin-right:auto;
+    margin-left:auto;
 }
 
 
@@ -147,18 +154,20 @@ body{
     font-size:9px;
     line-height:2;
     margin:5px;
+    margin-top:20px;
 }
 
 h2{
     color:#51473d;
     font-size:15px;
     font-weight:lighter;
+    margin-top:40px;
     margin-bottom:0px;
     margin-left:8px;
 }
 
-#topbar {
-    text-align:right;/*få centrerad*/
+#topbar{
+    text-align:right;
     color:#fcfaf4;
     font-style:italic;
     font-size:10px;
@@ -171,7 +180,9 @@ h2{
     font-family:Verdana;
     font-style:italic;
     font-size:10px;
-    padding:0px;
+    padding-left:7.5px;
+    padding-right:7.5px;
+    padding-top:5px;
 }
 
 
@@ -182,14 +193,17 @@ h2{
     padding:2px;
     margin-left:5px;
     margin-top:0px;
+    
 }
 
 #subcontent li{
     font-size:17px;
+    margin-bottom:0px;
 }
 
 #subcontent a{
     color:#51473d;
+    
 }
 
 /*-----Bild-----*/
