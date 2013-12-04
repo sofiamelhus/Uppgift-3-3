@@ -7,19 +7,25 @@ body{
 
 #container{
     width:900px;
-    height:900px;
+    height:800px;
     background:#fcfaf4;
     margin-right:auto;
     margin-left:auto;
+    border:1px solid;
+    border-color:#a0a0a0;
 }
 
 #topbar{
     width:850px;
-    height:20px;
+    height:220px;
     margin-right:auto;
     margin-left:auto;
     background:#51473d;
-    color:#fcfaf4;
+    margin-top:10px;
+    background-image:url(pics/coffey.jpg);
+    background-size: 850px 200px;
+    background-repeat:no-repeat;
+    background-position:bottom;
 }
 
 #menu{
@@ -28,27 +34,29 @@ body{
     margin-right:auto;
     margin-left:auto;
     background:#51473d;
-    margin:20px;
+    margin-top:0px;
+    margin-bottom:1px;
 }
 
 #content{
     width:850px;
-    height:auto;
+    height:350px;
     margin-right:auto;
     margin-left:auto;
     background:#eae7d2;
+    margin-top:0px;
 }
+
 #maincontent{
-    width:60%;
-    height:350px;
+    width:72%;
+    height:360px;
     background:#eae7d2;
     float:left;
-    
 }
 
 #subcontent{
-    width:40%;
-    height:350px;
+    width:28%;
+    height:360px;
     background:#eae7d2;
     float:right;
 }
@@ -62,9 +70,121 @@ body{
 }
 
 
-
 /*-----Navigation-----*/
+
+#menu ul{
+    list-style-type:none;
+    padding:0px;
+    margin-left:10px;
+}
+
+#menu li{
+    display:inline;
+    margin:0px;
+    padding:0px;
+    
+}
+
+#menu a{
+    color:#eae7d2;
+    background:#797066;
+    text-decoration:none;
+    font-family:Verdana;
+    font-size:12px;
+    border:1px solid #797066;
+    border-bottom:none;
+    padding:9px;
+    width:75px;
+    text-align:center;
+    text-transform:capitalize;
+}
+
+#menu a:hover{
+    background:#eae7d2;
+    color:#888076;
+    border:1px solid #eae7d2;
+}
+
+.active{
+    background:#eae7d2;
+    color:#888076;
+    border-bottom:1px solid #eae7d2;
+}
+
 
 /*-----Texturer-----*/
 
+#maincontent h1{
+    color:#797066;
+    font-weight:lighter;
+    margin-left:10px;
+}
+
+#subcontent h1{
+    color:#51473d;
+    font-weight:lighter;
+    font-size:18px;
+}
+
+#maincontent p{
+    color:#797066;
+    font-family:verdana;
+    font-size:12px;
+    line-height:2;
+}
+
+#subcontent p{
+    color:#797066;
+    font-family:verdana;
+    font-size:10px;
+    line-height:2;
+}
+
+h2{
+    color:#51473d;
+    font-size:15px;
+    font-weight:lighter;
+    margin:0px;
+    padding:0px;
+}
+
+#topbar {
+    text-align:right;/*få centrerad*/
+    color:#fcfaf4;
+    font-style:italic;
+    font-size:10px;
+    font-family:Verdana;
+    
+}
+
+#bottomcontent{
+    color:#797066;
+    font-family:Verdana;
+    font-style:italic;
+    font-size:10px;
+    padding:10px;
+}
+
+
 /*-----Listor-----*/
+
+#subcontent ul{
+    list-style-type:none;
+    padding:2px;
+    margin:0px;
+}
+
+#subcontent li{
+    font-size:17px;
+}
+
+#subcontent a{
+    color:#51473d;
+}
+
+/*-----Bild-----*/
+
+img {
+    float:left;
+    margin-left:15px;
+}
