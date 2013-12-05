@@ -110,13 +110,15 @@ body{
     text-align:center;
     text-transform:capitalize;
     padding:10px;
-    padding-bottom:4px;
+    padding-bottom:5px;
     margin-right:-8px;
 }
 
 #menu ul li a:hover{
     background:#eae7d2;
     color:#888076;
+    border: 1px solid #eae7d2;
+    border-bottom:none;
 }
 
 .active{
