@@ -21,6 +21,7 @@ body{
     height:220px;
     margin-right:auto;
     margin-left:auto;
+    margin-bottom:-16px;
     background:#51473d;
     background-image:url(pics/coffey.jpg);
     background-size:630px 200px;
@@ -28,16 +29,15 @@ body{
     background-position:bottom;
     padding-right:2.5px;
     padding-left:2.5px;
+    padding-bottom:0px;
 }
 
 #menu{
     width:630px;
-    height:60px;
+    height:32px;
     margin-right:auto;
     margin-left:auto;
     background:#51473d;
-    margin-top:0px;
-    margin-bottom:1px;
 }
 
 #content{
@@ -83,43 +83,45 @@ body{
 
 /*-----Navigation-----*/
 
+#menu a{
+    display:none;
+}
+
 #menu ul{
     list-style-type:none;
-    padding:0px;
-    margin-left:10px;
+    padding-top:10.5px;
+    padding-bottom:0px;
+    padding-left:0px;
+    padding-right:0px;
 }
 
 #menu li{
     display:inline;
-    margin:0px;
-    padding:0px;
-    
+    margin-left:5px;
 }
 
-#menu a{
+#menu ul li a{
+    display:inline;
     color:#eae7d2;
     background:#797066;
     text-decoration:none;
     font-family:Verdana;
     font-size:12px;
-    border:1px solid #797066;
-    border-bottom:none;
-    padding:9px;
-    width:75px;
     text-align:center;
     text-transform:capitalize;
+    padding:10px;
+    padding-bottom:4px;
+    margin-right:-8px;
 }
 
-#menu a:hover{
+#menu ul li a:hover{
     background:#eae7d2;
     color:#888076;
-    border:1px solid #eae7d2;
 }
 
 .active{
     background:#eae7d2;
     color:#888076;
-    border-bottom:1px solid #eae7d2;
 }
 
 
